@@ -22,7 +22,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
@@ -34,7 +34,7 @@
     <description>This is a sample library for a tutorial about
         publishing to Maven Central
     </description>
-    <url>http://github.com/nyholmniklas/arithmetic</url>
+    <url>https://github.com/gargVader/arithmetic</url>
 
     <licenses>
         <license>
@@ -96,26 +96,26 @@
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git://github.com/nyholmniklas/arithmetic.git</connection>
-        <developerConnection>scm:git:ssh://github.com:nyholmniklas/arithmetic.git</developerConnection>
-        <url>http://github.com/nyholmniklas/arithmetic</url>
+        <connection>scm:git:git://github.com/gargVader/arithmetic.git</connection>
+        <developerConnection>scm:git:ssh://github.com:gargVader/arithmetic.git</developerConnection>
+        <url>https://github.com/gargVader/arithmetic</url>
     </scm>
 
     <developers>
         <developer>
-            <name>Niklas Nyholm</name>
-            <email>nyholmniklas@gmail.com</email>
-            <organization>com.github.nyholmniklas</organization>
-            <organizationUrl>http://github.com/nyholmniklas/</organizationUrl>
+            <name>Girish Garg</name>
+            <email>girishgargcool@gmail.com</email>
+            <organization>com.github.gargVader</organization>
+            <organizationUrl>http://github.com/gargVader/</organizationUrl>
         </developer>
     </developers>
 
